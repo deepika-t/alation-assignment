@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Search]">
+  <parameter name="browser" value="Firefox"/>
+  <test name="search_books(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="amazon_Test.BookDetailsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="getDetailsFromProductPage"/>
+        </methods>
+      </class> <!-- amazon_Test.BookDetailsTest -->
+    </classes>
+  </test> <!-- search_books(failed) -->
+</suite> <!-- Failed suite [Search] -->
