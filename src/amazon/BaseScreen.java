@@ -17,4 +17,4 @@ public class BaseScreen {
 		this.driver = inputDriver;
 		PageFactory.initElements(driver, this);
 		System.our.println("hi lets meake a sample test with no changes another test");
-		System.out.println("last but not the least");
+		System.out.println("last but not the least test");
