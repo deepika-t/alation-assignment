@@ -16,6 +16,6 @@ public class BaseScreen {
 
 		this.driver = inputDriver;
 		PageFactory.initElements(driver, this);
-		System.our.println("hi lets meake a sample test with no changes");
+		System.our.println("hi lets meake a sample test with no changes another test");
 	}
 }
